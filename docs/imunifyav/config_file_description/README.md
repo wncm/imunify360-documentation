@@ -72,12 +72,12 @@ In the config file it is possible to set up ImunifyAV(+) configuration. The foll
 <td width="250px;"><span class="notranslate">upgrade_button: True</span></td><td># enable (<span class="notranslate">True</span> - the default value) or disable (<span class="notranslate">False</span>) the Imunify upgrade button.</td></tr>
 <tr>
 <th colspan="2" align="left"><span class="notranslate">RESOURCE_MANAGEMENT:</span></th></tr>
-<tr><td><span class="notranslate">ram_limit: 500</span></td>
-<td># set RAM consumption limit for ImunifyAV(+) in MB</td></tr>
-<tr><td><span class="notranslate">io_limit: 2</span></td>
-<td># set IO consumption limit for ImunifyAV(+) in MB</td></tr>
-<tr><td><span class="notranslate">cpu_limit: 2</span></td>
-<td># set CPU consumption limit for ImunifyAV(+) in MB.</td></tr>
+<tr><td><span class="notranslate">cpu: 2</span></td>
+<td># intensity level for CPU consumption. Can be set from 1 to 7, default is 2</td></tr>
+<tr><td><span class="notranslate">io: 2</span></td>
+<td># intensity level for file operations. Can be set from 1 to 7, default is 2</td></tr>
+<tr><td><span class="notranslate">ram: 2048</span></td>
+<td># intensity level for RAM consumption. Minimum value is 1024, default is 2048</td></tr>
 </table>
 
 ## How to apply changes from CLI
